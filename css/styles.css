@@ -1,0 +1,200 @@
+/****************************** TAG SELECTORS **************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sansita Swashed', cursive;
+}
+
+h1 {
+  color: #41aea9;
+  font-size: 5.5rem;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #41aea9;
+  font-size: 400%;
+  font-family: 'Sacramento', cursive;
+}
+
+h3 {
+  color: #213e3b;
+  margin: 30 auto 0 auto;
+  font-size: 300%;
+}
+
+p {
+  font-size: 1.2rem;
+}
+/****************************** DIV SELECTORS ***************************/
+.topContainer {
+  background-color: #e8ffff;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.midContainer {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.botContainer {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.Contact {
+  padding-top: 175px;
+  width: 50%;
+  margin: auto;
+}
+
+.Bottom {
+  background-color: #41aea9;
+  padding-bottom: 5px;
+}
+
+/****************************** CLASS SELECTORS **************************/
+.header {
+  margin: 50px auto 0 auto;
+}
+
+.SD {
+  text-decoration: underline;
+}
+
+.WD {
+  text-decoration: underline;
+}
+
+.Myskills {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.aboutme {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer-link {
+  font-size: 1rem;
+}
+
+.ref {
+  font-size: .75rem;
+}
+
+.cap {
+  font-size: .75rem;
+}
+
+/****************************** IMAGE SELECTORS **************************/
+.cloud {
+  position: absolute;
+  right: 450px;
+  top: 300px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 475px;
+  bottom: 250px;
+}
+
+.cloud3 {
+  transform: scaleX(-1);
+  position: absolute;
+  right: 575px;
+  bottom: 300px;
+}
+
+.cloud4 {
+  position: absolute;
+  right: 520px;
+  bottom: 300px;
+}
+
+.cloud5 {
+  transform: scalex(-1);
+  position: absolute;
+  right: 600px;
+  bottom: 300px;
+}
+
+.mountain {
+    width: 45%;
+    height: auto;
+}
+
+.Profile {
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+
+.contactImg {
+  width: 25%;
+  height: 25%;
+}
+
+.code {
+  position: relative;
+  bottom: 115px;
+  float: right;
+  margin-left: 30px;
+}
+
+.Myskills {
+  position:relative;
+  right: 175px;
+  top: 50px;
+}
+
+/****************************** BUTTON SELECTOR *************************/
+.Button {
+   background: #A6F6F1;
+   background-image: -webkit-linear-gradient(top, #A6F6F1, #A6F6F1);
+   background-image: -moz-linear-gradient(top, #A6F6F1, #A6F6F1);
+   background-image: -ms-linear-gradient(top, #A6F6F1, #A6F6F1);
+   background-image: -o-linear-gradient(top, #A6F6F1, #A6F6F1);
+   background-image: -webkit-gradient(to bottom, #A6F6F1, #A6F6F1);
+   -webkit-border-radius: 89px;
+   -moz-border-radius: 89px;
+   border-radius: 89px;
+   color: #213E3B;
+   font-family: serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 0 1px 28px 10px #213E3B;
+   -moz-box-shadow: 0 1px 28px 10px #213E3B;
+   box-shadow: 0 1px 28px 10px #213E3B;
+   text-shadow: -4px 0 9px #E8FFFF;
+   border: groove #000000 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.Button:hover {
+   border: solid #000000 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #41AEA9, #41AEA9);
+   background-image: -moz-linear-gradient(top, #41AEA9, #41AEA9);
+   background-image: -ms-linear-gradient(top, #41AEA9, #41AEA9);
+   background-image: -o-linear-gradient(top, #41AEA9, #41AEA9);
+   background-image: -webkit-gradient(to bottom, #41AEA9, #41AEA9);
+   -webkit-border-radius: 89px;
+   -moz-border-radius: 89px;
+   border-radius: 89px;
+   text-decoration: none;
+}
